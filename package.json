@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot-amgs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "12.2.0",
+    "eslint": "7.3.1",
+    "dotenv": "8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roselmamendes/discord-bot-amgs.git"
+  },
+  "author": "Roselma Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roselmamendes/discord-bot-amgs/issues"
+  },
+  "homepage": "https://github.com/roselmamendes/discord-bot-amgs#readme"
+}
