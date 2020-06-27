@@ -12,7 +12,12 @@ client.login(process.env.DISCORD_TOKEN);
 
 client.on('message', message => {
 	if (message.content === '!ping') {
-		// send back "Pong." to the channel the message was sent in
 		message.channel.send('Pong.');
+	}else if (message.content === '!user-info') {
+		message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
+	}else if (message.author.username === process.env.USER_1) {
+		message.channel.send('olar Judith');
+	}else if (message.author.username === process.env.USER_2) {
+		message.channel.send('Perdeu a referencia?');
 	}
 });
